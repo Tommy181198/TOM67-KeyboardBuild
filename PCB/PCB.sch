@@ -32,17 +32,6 @@ Connection ~ 3500 1850
 Wire Wire Line
 	3400 1850 3400 1700
 Connection ~ 3400 1850
-$Comp
-L keyboard_parts:GND #PWR0102
-U 1 1 61E99B0D
-P 3050 5450
-F 0 "#PWR0102" H 3050 5500 20  0001 C CNN
-F 1 "GND" H 3050 5509 30  0000 C CNN
-F 2 "" H 3050 5450 60  0000 C CNN
-F 3 "" H 3050 5450 60  0000 C CNN
-	1    3050 5450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3500 5450 3400 5450
 Wire Wire Line
@@ -115,17 +104,6 @@ F 3 "~" H 2350 3550 50  0001 C CNN
 	1    2350 3550
 	1    0    0    -1  
 $EndComp
-$Comp
-L keyboard_parts:GND #PWR0104
-U 1 1 61EA46C1
-P 2350 3800
-F 0 "#PWR0104" H 2350 3850 20  0001 C CNN
-F 1 "GND" H 2350 3859 30  0000 C CNN
-F 2 "" H 2350 3800 60  0000 C CNN
-F 3 "" H 2350 3800 60  0000 C CNN
-	1    2350 3800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2900 3450 2350 3450
 Wire Wire Line
@@ -185,17 +163,6 @@ F 3 "" H 8500 2850 50  0001 C CNN
 	1    8500 2850
 	1    0    0    -1  
 $EndComp
-$Comp
-L keyboard_parts:GND #PWR0106
-U 1 1 61EAE9F7
-P 8500 3450
-F 0 "#PWR0106" H 8500 3500 20  0001 C CNN
-F 1 "GND" H 8500 3509 30  0000 C CNN
-F 2 "" H 8500 3450 60  0000 C CNN
-F 3 "" H 8500 3450 60  0000 C CNN
-	1    8500 3450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7950 3050 8300 3050
 Wire Wire Line
@@ -217,8 +184,6 @@ Wire Wire Line
 Connection ~ 8500 3050
 Wire Wire Line
 	8500 3050 8650 3050
-Wire Wire Line
-	8500 3250 8500 3450
 Connection ~ 8500 3250
 Wire Wire Line
 	8500 3250 8300 3250
@@ -272,17 +237,6 @@ F 3 "~" H 1950 2650 50  0001 C CNN
 	1    1950 2650
 	0    1    1    0   
 $EndComp
-$Comp
-L keyboard_parts:GND #PWR0108
-U 1 1 61EBA72E
-P 1850 2800
-F 0 "#PWR0108" H 1850 2850 20  0001 C CNN
-F 1 "GND" H 1850 2859 30  0000 C CNN
-F 2 "" H 1850 2800 60  0000 C CNN
-F 3 "" H 1850 2800 60  0000 C CNN
-	1    1850 2800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2250 2350 2050 2350
 Wire Wire Line
@@ -297,7 +251,6 @@ Wire Wire Line
 	2150 2450 2150 2700
 Wire Wire Line
 	2150 2800 1850 2800
-Connection ~ 1850 2800
 Wire Wire Line
 	2350 2450 2350 2700
 Wire Wire Line
@@ -321,23 +274,10 @@ F 3 "~" H 2600 2350 50  0001 C CNN
 	1    2600 2150
 	1    0    0    -1  
 $EndComp
-$Comp
-L keyboard_parts:GND #PWR0109
-U 1 1 61EC0936
-P 2250 2100
-F 0 "#PWR0109" H 2250 2150 20  0001 C CNN
-F 1 "GND" H 2250 2159 30  0000 C CNN
-F 2 "" H 2250 2100 60  0000 C CNN
-F 3 "" H 2250 2100 60  0000 C CNN
-	1    2250 2100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2900 2150 2850 2150
 Wire Wire Line
 	2400 2150 2400 2100
-Wire Wire Line
-	2400 2100 2250 2100
 $Comp
 L Device:R_Small R4-10
 U 1 1 61EC36C8
@@ -381,17 +321,6 @@ F 1 "AVR-ISP-6" H 6171 2355 50  0000 R CNN
 F 2 "random-keyboard-parts:Reset_Pretty" V 6250 2400 50  0001 C CNN
 F 3 " ~" H 5225 1800 50  0001 C CNN
 	1    6500 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L keyboard_parts:GND #PWR0111
-U 1 1 61ECC37C
-P 6400 2750
-F 0 "#PWR0111" H 6400 2800 20  0001 C CNN
-F 1 "GND" H 6400 2809 30  0000 C CNN
-F 2 "" H 6400 2750 60  0000 C CNN
-F 3 "" H 6400 2750 60  0000 C CNN
-	1    6400 2750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -577,19 +506,6 @@ Wire Wire Line
 Connection ~ 6700 5050
 Wire Wire Line
 	6700 5050 6850 5050
-$Comp
-L keyboard_parts:GND #PWR0115
-U 1 1 61EFFBF0
-P 6700 5300
-F 0 "#PWR0115" H 6700 5350 20  0001 C CNN
-F 1 "GND" H 6700 5359 30  0000 C CNN
-F 2 "" H 6700 5300 60  0000 C CNN
-F 3 "" H 6700 5300 60  0000 C CNN
-	1    6700 5300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6700 5150 6700 5300
 Connection ~ 6700 5150
 $Comp
 L power:VCC #PWR0116
@@ -701,4 +617,88 @@ Wire Wire Line
 	7100 4050 7200 4050
 Wire Wire Line
 	7400 4050 7700 4050
+Wire Wire Line
+	6700 5150 6700 5300
+Wire Wire Line
+	2250 2100 2400 2100
+Wire Wire Line
+	8500 3250 8500 3450
+$Comp
+L power:GND #PWR?
+U 1 1 62479121
+P 8500 3450
+F 0 "#PWR?" H 8500 3200 50  0001 C CNN
+F 1 "GND" H 8505 3277 50  0000 C CNN
+F 2 "" H 8500 3450 50  0001 C CNN
+F 3 "" H 8500 3450 50  0001 C CNN
+	1    8500 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6247C0CA
+P 2250 2100
+F 0 "#PWR?" H 2250 1850 50  0001 C CNN
+F 1 "GND" H 2255 1927 50  0000 C CNN
+F 2 "" H 2250 2100 50  0001 C CNN
+F 3 "" H 2250 2100 50  0001 C CNN
+	1    2250 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6247D056
+P 1850 2800
+F 0 "#PWR?" H 1850 2550 50  0001 C CNN
+F 1 "GND" H 1855 2627 50  0000 C CNN
+F 2 "" H 1850 2800 50  0001 C CNN
+F 3 "" H 1850 2800 50  0001 C CNN
+	1    1850 2800
+	1    0    0    -1  
+$EndComp
+Connection ~ 1850 2800
+$Comp
+L power:GND #PWR?
+U 1 1 6247E214
+P 2350 3800
+F 0 "#PWR?" H 2350 3550 50  0001 C CNN
+F 1 "GND" H 2355 3627 50  0000 C CNN
+F 2 "" H 2350 3800 50  0001 C CNN
+F 3 "" H 2350 3800 50  0001 C CNN
+	1    2350 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6247EC26
+P 3050 5450
+F 0 "#PWR?" H 3050 5200 50  0001 C CNN
+F 1 "GND" H 3055 5277 50  0000 C CNN
+F 2 "" H 3050 5450 50  0001 C CNN
+F 3 "" H 3050 5450 50  0001 C CNN
+	1    3050 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6247EF75
+P 6700 5300
+F 0 "#PWR?" H 6700 5050 50  0001 C CNN
+F 1 "GND" H 6705 5127 50  0000 C CNN
+F 2 "" H 6700 5300 50  0001 C CNN
+F 3 "" H 6700 5300 50  0001 C CNN
+	1    6700 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6247FB74
+P 6400 2750
+F 0 "#PWR?" H 6400 2500 50  0001 C CNN
+F 1 "GND" H 6405 2577 50  0000 C CNN
+F 2 "" H 6400 2750 50  0001 C CNN
+F 3 "" H 6400 2750 50  0001 C CNN
+	1    6400 2750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
