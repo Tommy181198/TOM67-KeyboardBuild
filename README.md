@@ -26,4 +26,10 @@ The PCB Component placement before routing
 ![image](https://user-images.githubusercontent.com/56707661/150570718-e26adf7b-2707-4287-aadb-fcb7cb9b94b1.png)
 
 
+Switch Matrix Routing (its a mess):
+
+![image](https://user-images.githubusercontent.com/56707661/150579811-f3641639-e9a4-4e01-bf76-0979386fc0cc.png)
+
+
+
 
