@@ -31,5 +31,10 @@ Switch Matrix Routing (its a mess):
 ![image](https://user-images.githubusercontent.com/56707661/150579811-f3641639-e9a4-4e01-bf76-0979386fc0cc.png)
 
 
+Crystal Route:
+
+![image](https://user-images.githubusercontent.com/56707661/150624697-37b135bd-b2c4-4c5e-9363-23341ac9e60b.png)
+
+
 
 
