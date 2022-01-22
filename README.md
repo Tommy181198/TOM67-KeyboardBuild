@@ -39,6 +39,17 @@ USB TYPE C Power Routing (I know its a mess) :
 
 ![image](https://user-images.githubusercontent.com/56707661/150625285-343a63c4-e7e9-4631-aa87-f34ee73e5448.png)
 
+Finished Route
+
+![image](https://user-images.githubusercontent.com/56707661/150642816-50172a03-bbdc-4eee-af41-fd14c61683c2.png)
+
+
+
+3D Render :
+![image](https://user-images.githubusercontent.com/56707661/150642831-3b4200a5-2eb9-49b9-9a28-2ee83ef06c4e.png)
+![image](https://user-images.githubusercontent.com/56707661/150642856-6fbe8470-9476-4476-9170-df7400be9819.png)
+
+
 
 
 
