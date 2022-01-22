@@ -48,17 +48,6 @@ F 3 "~" H 4600 4250 50  0001 C CNN
 	1    4600 4250
 	0    1    1    0   
 $EndComp
-$Comp
-L keyboard_parts:GND #PWR0103
-U 1 1 61E9EDC0
-P 5250 4250
-F 0 "#PWR0103" H 5250 4300 20  0001 C CNN
-F 1 "GND" H 5250 4309 30  0000 C CNN
-F 2 "" H 5250 4250 60  0000 C CNN
-F 3 "" H 5250 4250 60  0000 C CNN
-	1    5250 4250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4100 4250 4500 4250
 Wire Wire Line
@@ -342,11 +331,11 @@ Text GLabel 6900 2350 2    50   Input ~ 0
 SCK
 Text GLabel 6900 2450 2    50   Input ~ 0
 RESET
-Text GLabel 4500 2250 2    50   Input ~ 0
+Text GLabel 4500 2450 2    50   Input ~ 0
 SCK
 Text GLabel 4500 2350 2    50   Input ~ 0
 MOSI
-Text GLabel 4500 2450 2    50   Input ~ 0
+Text GLabel 4500 2250 2    50   Input ~ 0
 MISO
 $Comp
 L Type-C:HRO-TYPE-C-31-M-12 USB-C1
@@ -368,8 +357,6 @@ Wire Wire Line
 Wire Wire Line
 	6550 5050 6600 5050
 Connection ~ 6600 5050
-Wire Wire Line
-	6600 5050 6600 5150
 $Comp
 L power:VCC #PWR0113
 U 1 1 61ED7485
@@ -573,17 +560,17 @@ Text GLabel 4100 4050 2    50   Input ~ 0
 col14
 Text GLabel 4100 4350 2    50   Input ~ 0
 row0
-Text GLabel 4100 4550 2    50   Input ~ 0
-row2
 Text GLabel 4100 4650 2    50   Input ~ 0
-row3
+row2
 Text GLabel 4100 4750 2    50   Input ~ 0
-row4
+row3
 Text GLabel 4100 4850 2    50   Input ~ 0
+row4
+Text GLabel 4100 4550 2    50   Input ~ 0
 row1
-Text GLabel 4100 4950 2    50   Input ~ 0
-col5
 Text GLabel 4100 5050 2    50   Input ~ 0
+col5
+Text GLabel 4100 4950 2    50   Input ~ 0
 col6
 Text GLabel 2850 2150 3    50   Input ~ 0
 RESET
@@ -680,17 +667,6 @@ F 3 "" H 3050 5450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0111
-U 1 1 6247EF75
-P 6700 5300
-F 0 "#PWR0111" H 6700 5050 50  0001 C CNN
-F 1 "GND" H 6705 5127 50  0000 C CNN
-F 2 "" H 6700 5300 50  0001 C CNN
-F 3 "" H 6700 5300 50  0001 C CNN
-	1    6700 5300
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0115
 U 1 1 6247FB74
 P 6400 2750
@@ -705,4 +681,104 @@ Text GLabel 7300 4550 1    50   Input ~ 0
 DN
 Text GLabel 7300 4650 3    50   Input ~ 0
 DP
+$Comp
+L power:GND #PWR0103
+U 1 1 624F6E3A
+P 5250 4250
+F 0 "#PWR0103" H 5250 4000 50  0001 C CNN
+F 1 "GND" H 5255 4077 50  0000 C CNN
+F 2 "" H 5250 4250 50  0001 C CNN
+F 3 "" H 5250 4250 50  0001 C CNN
+	1    5250 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR0111
+U 1 1 6259718E
+P 6600 5200
+F 0 "#PWR0111" H 6600 4950 50  0001 C CNN
+F 1 "Earth" H 6600 5050 50  0001 C CNN
+F 2 "" H 6600 5200 50  0001 C CNN
+F 3 "~" H 6600 5200 50  0001 C CNN
+	1    6600 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Ferrite_Bead_Small FB1
+U 1 1 62599F62
+P 6800 5700
+F 0 "FB1" V 6563 5700 50  0000 C CNN
+F 1 "60" V 6654 5700 50  0000 C CNN
+F 2 "Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder" V 6730 5700 50  0001 C CNN
+F 3 "~" H 6800 5700 50  0001 C CNN
+	1    6800 5700
+	0    1    1    0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 6259B007
+P 6550 5700
+F 0 "#FLG0101" H 6550 5775 50  0001 C CNN
+F 1 "PWR_FLAG" V 6550 5827 50  0000 L CNN
+F 2 "" H 6550 5700 50  0001 C CNN
+F 3 "~" H 6550 5700 50  0001 C CNN
+	1    6550 5700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0104
+U 1 1 6259BA2D
+P 7050 5700
+F 0 "#FLG0104" H 7050 5775 50  0001 C CNN
+F 1 "PWR_FLAG" V 7050 5828 50  0000 L CNN
+F 2 "" H 7050 5700 50  0001 C CNN
+F 3 "~" H 7050 5700 50  0001 C CNN
+	1    7050 5700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6550 5700 6700 5700
+Wire Wire Line
+	6900 5700 7050 5700
+$Comp
+L power:Earth #PWR0117
+U 1 1 625A1153
+P 6550 5850
+F 0 "#PWR0117" H 6550 5600 50  0001 C CNN
+F 1 "Earth" H 6550 5700 50  0001 C CNN
+F 2 "" H 6550 5850 50  0001 C CNN
+F 3 "~" H 6550 5850 50  0001 C CNN
+	1    6550 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 5850 6550 5700
+Connection ~ 6550 5700
+$Comp
+L power:GND #PWR0118
+U 1 1 625A4186
+P 7050 5850
+F 0 "#PWR0118" H 7050 5600 50  0001 C CNN
+F 1 "GND" H 7055 5677 50  0000 C CNN
+F 2 "" H 7050 5850 50  0001 C CNN
+F 3 "" H 7050 5850 50  0001 C CNN
+	1    7050 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 5700 7050 5850
+Connection ~ 7050 5700
+Wire Wire Line
+	6600 5150 6600 5200
+$Comp
+L power:GND #PWR?
+U 1 1 625AE0FC
+P 6700 5300
+F 0 "#PWR?" H 6700 5050 50  0001 C CNN
+F 1 "GND" H 6705 5127 50  0000 C CNN
+F 2 "" H 6700 5300 50  0001 C CNN
+F 3 "" H 6700 5300 50  0001 C CNN
+	1    6700 5300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
