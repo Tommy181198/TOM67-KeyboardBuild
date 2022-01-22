@@ -35,6 +35,11 @@ Crystal Route:
 
 ![image](https://user-images.githubusercontent.com/56707661/150624697-37b135bd-b2c4-4c5e-9363-23341ac9e60b.png)
 
+USB TYPE C Power Routing (I know its a mess) :
+
+![image](https://user-images.githubusercontent.com/56707661/150625285-343a63c4-e7e9-4631-aa87-f34ee73e5448.png)
+
+
 
 
 
